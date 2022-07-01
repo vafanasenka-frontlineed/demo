@@ -1,0 +1,56 @@
+{
+  "Adult_profile": {
+    "id": "Adult",
+    "name": "Adult",
+    "blockedCategories": [],
+    "blockedUrls": ["www.slivki.by*"],
+    "isAdsFree": "true",
+    "isAntiBullying": "false",
+    "isAutoNotice": "false",
+    "isLocationManagement": "false",
+    "isParentalControl": "false",
+    "isThreatProtection": "true"
+  },
+  "Kid_profile": {
+    "id": "Kid",
+    "name": "Kid",
+    "blockedCategories": ["Nightlife", "Sex", "Violence", "Bulling"],
+    "blockedUrls": [
+      "www.youtube.com*",
+      "www.playboy.com*",
+      "www.ambling.com*",
+      "www.booking.com*",
+      "www.tut.by*",
+      "www.onliner.by*",
+      "www.aliexpress.com*"
+    ],
+    "isAdsFree": "true",
+    "isAntiBullying": "false",
+    "isAutoNotice": "false",
+    "isLocationManagement": "false",
+    "isParentalControl": "false",
+    "isThreatProtection": "false"
+  },
+  "Shared_profile": {
+    "id": "Shared",
+    "name": "Shared",
+    "blockedCategories": [],
+    "isAdsFree": "true",
+    "isAntiBullying": "false",
+    "isAutoNotice": "false",
+    "isLocationManagement": "false",
+    "isParentalControl": "false",
+    "isThreatProtection": "true"
+  },
+  "Limited_profile": {
+    "id": "Limited",
+    "name": "Limited",
+    "blockedCategories": ["Nightlife", "Sex", "Bulling", "Sport", "Violence"],
+    "isAdsFree": "true",
+    "isAntiBullying": "false",
+    "isAutoNotice": "false",
+    "isLocationManagement": "false",
+    "isParentalControl": "false",
+    "isThreatProtection": "false"
+  }
+}

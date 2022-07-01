@@ -1,0 +1,30 @@
+{
+  "Password_policy_account": {
+    "accountId": "auto_account",
+    "type": "RESIDENTIAL",
+    "serviceList": "",
+    "productList": "",
+    "profileList": ""
+  },
+  "Provision_account": {
+    "accountId": "auto_provision_account",
+    "type": "RESIDENTIAL",
+    "serviceList": "",
+    "productList": "",
+    "profileList": ""
+  },
+  "Provision_account2": {
+    "accountId": "auto_provision_another_account",
+    "type": "RESIDENTIAL",
+    "serviceList": "",
+    "productList": "",
+    "profileList": ""
+  },
+  "New_account": {
+    "accountId": "auto_new_account",
+    "type": "ENTERPRISE",
+    "serviceList": "",
+    "productList": "",
+    "profileList": ""
+  }
+}

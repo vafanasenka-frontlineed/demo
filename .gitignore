@@ -1,0 +1,15 @@
+smart-test-framework/.allure
+
+#IDEA Files
+.idea/**
+.idea
+ajcore**
+/build/reports/**
+/target/**
+*.iml
+*.ipr
+
+#Allure
+/allure-results/**
+.allure
+*.log

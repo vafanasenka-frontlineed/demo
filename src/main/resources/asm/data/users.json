@@ -1,0 +1,17 @@
+{
+  "new_account_user": {
+    "profile": "prof_1",
+    "name": "auto_user",
+    "password": "123456"
+  },
+  "Password_policy_admin": {
+    "email": "email232@gmail.com",
+    "name": "auto_admin",
+    "password": "123456"
+  },
+  "Password_policy_manger": {
+    "email": "auto_manager@gmail.com",
+    "name": "auto_manager",
+    "password": "123456"
+  }
+}

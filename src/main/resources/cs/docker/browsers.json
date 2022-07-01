@@ -1,0 +1,32 @@
+{
+	"firefox": {
+		"default": "87.0",
+		"versions": {
+			"86.0": {
+				"image": "docker-virtual/selenoid/firefox:86.0",
+				"port": "4444",
+				"path": "/wd/hub"
+			},
+			"87.0": {
+				"image": "docker-virtual/selenoid/firefox:87.0",
+				"port": "4444",
+				"path": "/wd/hub"
+			}
+		}
+	},
+	"chrome": {
+		"default": "90.0",
+		"versions": {
+			"89.0": {
+				"image": "docker-virtual/selenoid/chrome:89.0",
+				"port": "4444",
+				"path": "/"
+			},
+			"90.0": {
+				"image": "docker-virtual/selenoid/chrome:90.0",
+				"port": "4444",
+				"path": "/"
+			}
+		}
+	}
+}

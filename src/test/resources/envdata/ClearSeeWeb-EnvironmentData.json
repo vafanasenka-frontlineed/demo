@@ -1,0 +1,16 @@
+{
+  "ClearSee_1": {
+    "sshConnectionData": {
+      "ip": "10.110.108.195",
+      "rootLogin": "root",
+      "rootPassword": "bagabu",
+      "userLogin": "admin",
+      "userPassword": "allot"
+    },
+    "csUiName": "ClearSeeBI1",
+    "csSystemName": "clearSeeSystem1",
+    "etlGroupName": "etlGroup1",
+    "csVersion": "16.8.10",
+    "csBuild": "8"
+  }
+}

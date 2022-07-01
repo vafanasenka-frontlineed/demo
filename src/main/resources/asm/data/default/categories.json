@@ -1,0 +1,51 @@
+{
+  "Education_category": {
+    "id": "Education",
+    "sm_categories": [
+      "art",
+      "astrology",
+      "economy",
+      "education",
+      "office"
+    ]
+  },
+  "Bulling_category": {
+    "id": "Bulling",
+    "sm_categories": [
+      "terrorism_extremism",
+      "cyberbullying",
+      "self_harm"
+    ]
+  },
+  "Nightlife_category": {
+    "id": "Nightlife",
+    "sm_categories": [
+      "music",
+      "nightlife",
+      "alcohol_and_tobacco",
+      "drugs"
+    ]
+  },
+  "Sport_category": {
+    "id": "Sport",
+    "sm_categories": ["golf","sports","athletics","baseball","basketball","cycling","american_football"]
+  },
+  "Sex_category": {
+    "id": "Sex",
+    "sm_categories": ["adult_games","sexuality","violence","racism"]
+  },
+  "Violence_category": {
+    "id": "Violence",
+    "sm_categories": [
+      "terrorism_extremism",
+      "cyberbullying",
+      "self_harm",
+      "abortion",
+      "military",
+      "weapons",
+      "violence",
+      "drugs",
+      "games"
+    ]
+  }
+}

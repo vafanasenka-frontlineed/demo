@@ -1,0 +1,12 @@
+{
+  "Provision_device": {
+    "description": "auto_Iphone_device",
+    "devicePlatform": "IOS",
+    "deviceType": "MOBILE_PHONE"
+  },
+  "Provision_tablet": {
+    "description": "auto_tablet_Device",
+    "devicePlatform": "ANDROID",
+    "deviceType": "TABLET"
+  }
+}

@@ -1,0 +1,43 @@
+Project: web_allot_test_framework
+group: QA
+product: web_allot_test_framework
+version: 1.0
+branch: master
+path: web_allot_test_framework
+
+repositories:
+  web_allot_test_framework:
+    name: web_allot_test_framework
+    url: https://bitbucket.rdlab.local/scm/aut/web_allot_test_framework.git
+    branch: master
+    credentials: svc_bitbucket
+    target: web_allot_test_framework
+
+builder:
+  id: maven
+  type: maven
+
+unit_test:
+  - name: web_allot_test_framework
+    script: unit_test.groovy
+    report: 'web_allot_test_framework/target/surefire-reports/TEST*.xml'
+
+sonar:
+  id: SonarQube-Automation
+  props_file: 'CI/sonar.properties'
+  projectName: 'web_allot_test_framework'
+  basedir: 'web_allot_test_framework'
+
+deploy:
+  maven:
+    script: CI/deploy.groovy
+    id: maven
+  docker:
+    id: docker
+    dockerFileDir: './web_allot_test_framework'
+    registry: automation-docker-dev-local
+    image_name: 'allot/quality/infra/web_allot_test_framework'
+    tag_prefix: commit
+
+recipients:
+  - Quality_Infra

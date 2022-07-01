@@ -1,0 +1,53 @@
+{
+  "Education_category": {
+    "id": "Education",
+    "sm_categories": [
+      "art",
+      "astrology",
+      "economy",
+      "education",
+      "office"
+    ]
+  },
+  "Bulling_category": {
+    "id": "Bulling",
+    "sm_categories": [
+      "terrorism_extremism",
+      "cyberbullying",
+      "self_harm"
+    ]
+  },
+  "Nightlife_category": {
+    "id": "Nightlife",
+    "sm_categories": [
+      "music",
+      "nightlife",
+      "alcohol_and_tobacco",
+      "drugs"
+    ]
+  },
+  "Violence_category": {
+    "id": "Violence",
+    "sm_categories": [
+      "terrorism_extremism",
+      "cyberbullying",
+      "self_harm",
+      "abortion",
+      "military",
+      "weapons",
+      "violence",
+      "drugs",
+      "games"
+    ]
+  },
+  "Provision_category": {
+    "id": "new category",
+    "sm_categories": [
+      "art",
+      "astrology",
+      "economy",
+      "education",
+      "office"
+    ]
+  }
+}

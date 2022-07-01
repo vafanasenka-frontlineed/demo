@@ -1,0 +1,4 @@
+[submodule "CI/pipelines"]
+	path = CI/pipelines
+	url = https://bitbucket.rdlab.local/scm/ci/pipelines.git
+	branch = master

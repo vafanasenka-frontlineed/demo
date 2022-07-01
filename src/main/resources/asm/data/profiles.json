@@ -1,0 +1,20 @@
+{
+  "Provision_profile": {
+    "id": "auto_profile",
+    "name": "Provision_profile",
+    "isAntiBullying": "false",
+    "isAutoNotice": "false",
+    "isLocationManagement": "false",
+    "isParentalControl": "false",
+    "isThreatProtection": "false"
+  },
+  "Adult_profile": {
+    "id": "auto_profile_adult",
+    "name": "Adult",
+    "isAntiBullying": "false",
+    "isAutoNotice": "false",
+    "isLocationManagement": "false",
+    "isParentalControl": "false",
+    "isThreatProtection": "true"
+  }
+}
