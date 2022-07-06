@@ -11,8 +11,12 @@ jobs:
         with:
           java-version: '17'
           distribution: 'corretto'
+
+      - name: Start selenoid
+        uses: Xotabu4/selenoid-github-action@v2
+
       - name: Run demo test
-        run: mvn clean test -Dtest=**/*DemoSuite.class -DfailIfNoTests=false
+        run: mvn clean test -Dtest=**/*DemoSuite.class -DfailIfNoTests=false -Ddriver.remote=true
 
       - name: Get Allure history
         uses: actions/checkout@v3
