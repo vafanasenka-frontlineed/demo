@@ -12,7 +12,7 @@ jobs:
           java-version: '17'
           distribution: 'corretto'
       - name: Run demo test
-        run: mvn clean test -Dtest=**/*DemoSuite.class -DfailIfNoTests=false -Dbrowser=firefox
+        run: mvn clean test -Dtest=**/*DemoSuite.class -DfailIfNoTests=false
 
       - name: Get Allure history
         uses: actions/checkout@v3
