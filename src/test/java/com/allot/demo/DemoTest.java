@@ -1,4 +1,4 @@
-package com.allot.cs.common;
+package com.allot.demo;
 
 import com.allot.cs.CSBaseTest;
 import com.codeborne.selenide.Selenide;
