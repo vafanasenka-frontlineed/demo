@@ -14,11 +14,15 @@ class DemoTest extends CSBaseTest {
 
     @Description("Demo test")
     @Test
-    @Step("Demo test")
     void demoTest(SoftAssertions soft) {
-        Selenide.open("https://www.google.com/");
+        open();
         Selenide.$(By.name("q")).shouldBe(visible).setValue("gegege");
         soft.assertThat(Selenide.$(By.name("q")).val()).contains("gegege");
+    }
+
+    @Step("Demo test")
+    private void open() {
+        Selenide.open("https://www.google.com/");
     }
 
 }
