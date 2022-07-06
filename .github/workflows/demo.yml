@@ -1,7 +1,7 @@
 name: demo-actions
 on: [push]
 jobs:
-  check-bats-version:
+  run-demo-tests:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -39,4 +39,4 @@ jobs:
           context: 'Test report'
           state: 'success'
           sha: ${{ github.event.pull_request.head.sha }}
-          target_url: simple-elf.github.io/github-allure-history/${{ github.run_number }}
+          target_url: vafanasenka-frontlineed.github.io/github-allure-history/${{ github.run_number }}
