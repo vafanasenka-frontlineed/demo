@@ -16,7 +16,7 @@
         <maven.surefire.version>2.19.1</maven.surefire.version>
         <maven.compiler.version>3.8.1</maven.compiler.version>
         <allure-maven.version>2.10.0</allure-maven.version>
-        <allure.version>2.18.1</allure.version>
+        <allure.version>2.13.6</allure.version>
         <allure-environment.version>1.0.0</allure-environment.version>
         <allure.results.directory>${project.build.directory}/allure-results</allure.results.directory>
         <reportportal.agent.junit5.version>5.0.2</reportportal.agent.junit5.version>
