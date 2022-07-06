@@ -1,0 +1,17 @@
+name: demo-actions
+on: [push]
+jobs:
+  check-bats-version:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-java@v3
+        with:
+          java-version: '17'
+          distribution: 'corretto'
+      - name: Mvn version
+        run: mvn --version
+      - name: Java version
+        run: java --version
+      - name: Run demo test
+        run: mvn clean test -Dtest=**/*DemoSuite.class -DfailIfNoTests=false
