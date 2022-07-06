@@ -40,3 +40,10 @@ jobs:
           publish_branch: gh-pages
           publish_dir: allure-history
           keep_files: true
+
+      - name: Publish allure artifact
+        if: always()
+        uses: actions/upload-artifact@v3.1.0
+        with:
+          name: allure-artifact
+          path: target/allure-results/
