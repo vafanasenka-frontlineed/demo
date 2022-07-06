@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Wed Jul 06 09:24:56 GMT 2022","Wed Jul 06 09:25:29 GMT 2022","32472","","com.allot.demo.DemoTest","","com.allot.demo.DemoTest","demoTest","demoTest(SoftAssertions)","Demo test"
