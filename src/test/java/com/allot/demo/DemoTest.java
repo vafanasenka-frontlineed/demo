@@ -3,6 +3,7 @@ package com.allot.demo;
 import com.allot.cs.CSBaseTest;
 import com.codeborne.selenide.Selenide;
 import io.qameta.allure.Description;
+import io.qameta.allure.Step;
 import org.assertj.core.api.SoftAssertions;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
@@ -13,6 +14,7 @@ class DemoTest extends CSBaseTest {
 
     @Description("Demo test")
     @Test
+    @Step("Demo test")
     void demoTest(SoftAssertions soft) {
         Selenide.open("https://www.google.com/");
         Selenide.$(By.name("q")).shouldBe(visible).setValue("gegege");
