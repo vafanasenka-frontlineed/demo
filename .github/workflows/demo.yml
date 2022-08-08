@@ -59,5 +59,4 @@ jobs:
           authToken: ${{ secrets.GITHUB_TOKEN }}
           context: 'Link to Allure report'
           state: 'success'
-          sha: ${{ github.event.pull_request.head.sha }}
           target_url: vafanasenka-frontlineed.github.io/demo/${{ github.run_number }}
