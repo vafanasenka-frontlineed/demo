@@ -59,4 +59,4 @@ jobs:
           authToken: ${{ secrets.GITHUB_TOKEN }}
           context: 'Link to Allure report'
           state: 'success'
-          target_url: vafanasenka-frontlineed.github.io/demo/${{ github.run_number }}
+          target_url: https://vafanasenka-frontlineed.github.io/demo/${{ github.run_number }}
