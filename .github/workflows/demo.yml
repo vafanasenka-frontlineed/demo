@@ -18,13 +18,13 @@ jobs:
       - name: Run demo test
         run: mvn clean test -Dtest=**/*DemoSuite.class -DfailIfNoTests=false -Ddriver.remote=true
 
-      - name: Get Allure history
-        uses: actions/checkout@v3
-        if: always()
-        continue-on-error: true
-        with:
-          ref: gh-pages
-          path: gh-pages
+      #- name: Get Allure history
+       # uses: actions/checkout@v3
+       # if: always()
+       # continue-on-error: true
+       # with:
+        #  ref: gh-pages
+        #  path: gh-pages
 
       - name: Allure
         uses: simple-elf/allure-report-action@master
@@ -43,7 +43,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
           publish_dir: allure-history
-          keep_files: false
+          keep_files: true
 
       - name: Publish allure artifact
         if: always()
