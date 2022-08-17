@@ -7,6 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Echo
+        if: github.event_name == 'workflow_dispatch'
         run: echo "${{ github.event_name }}"
         
       - uses: actions/checkout@v3
@@ -19,6 +20,7 @@ jobs:
         uses: Xotabu4/selenoid-github-action@v2
 
       - name: Run demo test
+        id: tests
         run: mvn clean test -Dtest=**/*DemoSuite.class -DfailIfNoTests=false -Ddriver.remote=true
 
       #- name: Get Allure history
@@ -61,5 +63,5 @@ jobs:
         with:
           authToken: ${{ secrets.GITHUB_TOKEN }}
           context: 'Link to Allure report'
-          state: 'success'
+          state: 'failure'
           target_url: https://vafanasenka-frontlineed.github.io/demo/${{ github.run_number }}
